@@ -8,4 +8,4 @@
 
 {Demo in Java + "Java isn't normally used, but we are using it purely for presentational purposes."}
 
-{Classwork(?)}
+{Talk about code obfuscation, the opposite of decompiling}
