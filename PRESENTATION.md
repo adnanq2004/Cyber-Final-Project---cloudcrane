@@ -42,9 +42,16 @@ In this step, the compiler uses the tokens to create an abstract syntax tree, wh
 
 In this step, the compiler uses the abstract syntax tree to look for semantic errors.
 
-Semantic Analysis can be divided into three steps:
-  - Type Checking: The compiler type matches assignment statements, arithmetic operations, functions, and method calls.
-  - Flow Control Checking: The compiler checks if flow control structures 
+#### Semantic Analysis can be divided into three steps:
+  - Type Checking: The compiler checks the type of assignment statements, arithmetic operations, functions, and method calls.
+  - Flow Control Checking: The compiler checks if flow control structures are used correctly and if classes and objects are correctly accessed.
+  - Label Checking: The compiler validates label and identifier usage.
+
+#### Semantic Errors can include:
+  - Assigning the wrong type to a variable.
+  - Declaring variables with the same name.
+  - Using undeclared variables.
+  - Using a keyword as a variable name.
 
 Finally, the compiler produces an annotated version of the abstract syntax tree, marking the semantic errors.
 
@@ -56,9 +63,22 @@ In this step, the compiler creates an intermediate code, a version of code betwe
 
 In this step, the compiler enhances the efficiency of the code.
 
+#### Follows three principles:
+  - The optimized code cannot change the original intention of the program.
+  - Optimization should focus on consuming fewer resources and speeding up the software.
+  - The optimization process shouldn't significantly increase compilation time.
+
+#### Here are some common optimization techniques:
+  - Function Lining: replaces function calls with the contents of the function's body.
+  - Dead Code Elimination: gets rid of code that is never executed, or who's return result is never used.
+  - Loop Fusion: executes operations in adjacent loops that have the same iteration conditions.
+    - ex:
+  - Instruction Combining: combines instructions that do similar operations.
+    - ex: `x=x+10; x=x-7;` combines into `x=x+3;`
+
 ### Code Generation
 
-#####
+In this step, the compiler finally converts optimized intermediate code into machine code for its targeted machine. The final code should have the same meaning as the source code, and be more efficient for memory and CPU usage.
 
 {Common tools/strategies used}
 
