@@ -18,11 +18,11 @@
 
 ### Modeling
 
-##### The information that was extracted is abstracted to make a conceptual model.
+##### In this step, the information that was extracted is abstracted to make a conceptual model, like a data flow diagram or a structure chart. This model serves as a guide to design new objects and systems.
 
 ### Review
 
-##### e
+##### In this step, the model is tested in various scenarios to ensure its an accurate abstraction of the original object. Once this step is completed, the model can be used to engineer the original object.
 
 ## How does Compiling
 
