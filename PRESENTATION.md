@@ -10,7 +10,7 @@ Reverse Engineering tends to be used to look at a program from the outside in, b
 
 ## How does Reverse Engineering
 
-#### The specific techniques for Reverse Engineering are dependent on the specific thing its being performed on, but it typically follows three general steps:
+##### The specific techniques for Reverse Engineering are dependent on the specific thing its being performed on, but it typically follows three general steps:
 
 ### Information Extraction
 
@@ -26,7 +26,7 @@ In this step, the model is tested in various scenarios to ensure its an accurate
 
 ## How does Compiling
 
-#### Compilers translate human-readable source code written in programming languages into machine code, for specific machine types. This process is divided into something called the "Compilation Phase", which is divided into 6 major steps:
+##### Compilers translate human-readable source code written in programming languages into machine code, for specific machine types. This process is divided into something called the "Compilation Phase", which is divided into 6 major steps:
 
 ### Lexical Analysis
 
@@ -80,7 +80,27 @@ In this step, the compiler enhances the efficiency of the code.
 
 In this step, the compiler finally converts optimized intermediate code into machine code for its targeted machine. The final code should have the same meaning as the source code, and be more efficient for memory and CPU usage.
 
-{Common tools/strategies used}
+# {Common tools/strategies used}
+
+## Tools
+
+##### Apktool
+
+A tool designed to reverse engineer third party, binary Android apps.
+
+##### dex2jar
+
+##### diStorm3
+
+##### edb-debugger
+
+##### Jad Debugger
+
+##### Javasnoop
+
+##### OllyDbg
+
+##### Valgrind
 
 {Demo in Java + "Java isn't normally used, but we are using it purely for presentation purposes."}
 
