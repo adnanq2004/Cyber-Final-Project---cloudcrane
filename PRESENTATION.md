@@ -4,7 +4,7 @@ Reverse Engineering is the process of taking a piece of software or hardware and
 
 # {What purpose does it serve}
 
-Reverse Engineering tends to be used to look at a program from the outside in, by third parties that don't have access to the source code. For a practical example, if an anti-malware company discovers a piece of malware, they can use reverse engineering techniques to break down and understand the functions of the malware without accidentally enabling or triggering the virus.
+Reverse Engineering tends to be used to look at a program from the outside in, by third parties that don't have access to the source code. For a practical example, if an anti-malware company discovers a piece of malware, they can use reverse engineering techniques to break down and understand the functions of the malware without accidentally enabling or triggering the virus. It can also be used to figure how a victim was attacked in the first place and create a defense against a second (or whatever nth is next) attempt.
 
 # {How is it done + How is compiling done}
 
@@ -14,7 +14,7 @@ Reverse Engineering tends to be used to look at a program from the outside in, b
 
 ### Information Extraction
 
-In this step, the design of the object being reverse engineered is studied and extracted to see how the pieces fit together. It may involve finding and examining source code, or using tools, like disassemblers, to break a thing into its part.
+In this step, the design of the object being reverse engineered is studied and extracted to see how the pieces fit together. It may involve finding and examining source code, or using tools, like disassemblers, to break a thing into its part. The hard part is getting the source code since it will most likely not be easily accessible.
 
 ### Modeling
 
@@ -83,6 +83,14 @@ In this step, the compiler finally converts optimized intermediate code into mac
 # {Common tools/strategies used}
 
 ## Tools
+
+### Decompilers
+
+Does exactly what it says it will do. It is the opposite of a compiler and translates the compiled executable into readable source code. They don't always work since it can be difficult to perfectly translate the compiled code and is made even harder when the code is purposely obfuscated. However, it is stil a powerful tool for reverse engineering and helps to figure out what an executable is supposed to do.
+
+### Debuggers
+
+Something we should be familar with. Like the debugger we can find in something like processing. This tool allows us test our code in a controlled environment and see how exactly it operates, but we can also use it on our target program. This allows us to figure out what malicious code is meant to do through testing rather than by reading the compiled code or needing the source code.
 
 ##### Apktool
 
