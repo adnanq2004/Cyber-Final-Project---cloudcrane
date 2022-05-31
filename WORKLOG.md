@@ -1,6 +1,15 @@
 5/18:
 
+  Adnan & William
+  2:55-3:35:
+    - Developed idea of Reverse Engineering a DRM.
+    - Researched the idea, and how to make it work.
+
 5/19:
+
+  Adnan & William
+  2:54-3:35:
+    - Went through different PicoCTF Challenges to decide on a topic.
 
 5/20:
 
