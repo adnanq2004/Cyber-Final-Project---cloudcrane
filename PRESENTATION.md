@@ -90,18 +90,26 @@ A tool designed to reverse engineer third party, binary Android apps.
 
 ##### dex2jar
 
+A tool that can convert classes.dex files to classes.jar, or vice versa, in order to view source code of Android applications using any Java decompiler.
+
 ##### diStorm3
+
+A decomposer library that disassembles instructions into various bit-sizes.
 
 ##### edb-debugger
 
+A 32-bit debugger tool that analyzes binary code, for Linux devices. One of its main goals is modularity.
+
 ##### Jad Debugger
+
+A java decompiler that converts .class files into source code.
 
 ##### Javasnoop
 
+A tool to test the security of java applications. It lets you attach an existing process and instantly begin tampering with it.
+
 ##### OllyDbg
 
-##### Valgrind
+A 32-bit debugger tool that analyzes binary code, for Windows devices.
 
-{Demo in Java + "Java isn't normally used, but we are using it purely for presentation purposes."}
-
-{Talk about code obfuscation, the opposite of decompiling}
+# {Demo in Java + "Java isn't normally used, but we are using it purely for presentation purposes."}
