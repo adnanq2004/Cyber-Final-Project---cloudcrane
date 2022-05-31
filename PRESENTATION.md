@@ -86,11 +86,19 @@ In this step, the compiler finally converts optimized intermediate code into mac
 
 ### Decompilers
 
-Does exactly what it says it will do. It is the opposite of a compiler and translates the compiled executable into readable source code. They don't always work since it can be difficult to perfectly translate the compiled code and is made even harder when the code is purposely obfuscated. However, it is stil a powerful tool for reverse engineering and helps to figure out what an executable is supposed to do.
+Does exactly what it says it will do. It is the opposite of a compiler and translates the compiled executable into readable source code. They don't always work since it can be difficult to perfectly translate the compiled code. However, it is stil a powerful tool for reverse engineering and helps to figure out what an executable is supposed to do.
 
 ### Debuggers
 
 Something we should be familar with. Like the debugger we can find in something like processing. This tool allows us test our code in a controlled environment and see how exactly it operates, but we can also use it on our target program. This allows us to figure out what malicious code is meant to do through testing rather than by reading the compiled code or needing the source code.
+
+### Counters
+
+These tools are not infalliable. Since these are readily available to help us reverse engineer, there are going to be strategies to defy these tools. 
+
+Code can be purposely written in order to obfuscate it and mess with decompilers. This leaves whatever the decompiler outputs still unreadable. Spaghetti code, but with a purpose!
+
+Code can also be made to be difficult for the debuggers to test accurately. Threads can be hard for debuggers to track and we can make the code check for the presence of debugging. Sometimes there are faults to debuggers that we can abuse.
 
 ##### Apktool
 
