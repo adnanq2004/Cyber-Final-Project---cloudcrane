@@ -34,6 +34,10 @@
   - Began research on the reverse engineering process.
     - Found information about specific reverse engineering processes, of hardware and software, and of different coding languages.
 
+##### William:
+3:00-3:35:
+  - Researched tools that can be used for reverse engineering and looked through more PicoCTFs to make hw. There are few java ones.
+
 ### 5/26:
 
 ##### Adnan:
@@ -66,3 +70,7 @@
 ##### Adnan:
 7:30-8:30:
   - Finished putting most of the research onto PRESENTATION.md.
+
+##### William:
+5:00-11:47:
+  - Finished making demos and hw. Added leftover research about tools. Tried IDA over weekend, but freeware doesn't let me decompile .class files. Uploaded .jar file of JD-GUI to demo in class if it works.
