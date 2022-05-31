@@ -6,9 +6,7 @@ Reverse Engineering is the process of taking a piece of software or hardware and
 
 Reverse Engineering tends to be used to look at a program from the outside in, by third parties that don't have access to the source code. For a practical example, if an anti-malware company discovers a piece of malware, they can use reverse engineering techniques to break down and understand the functions of the malware without accidentally enabling or triggering the virus. It can also be used to figure how a victim was attacked in the first place and create a defense against a second (or whatever nth is next) attempt.
 
-# {How is it done + How is compiling done}
-
-## How does Reverse Engineering
+# {How is Reverse Engineering done}
 
 ##### The specific techniques for Reverse Engineering are dependent on the specific thing its being performed on, but it typically follows three general steps:
 
@@ -24,7 +22,7 @@ In this step, the information that was extracted is abstracted to make a concept
 
 In this step, the model is tested in various scenarios to ensure its an accurate abstraction of the original object. Once this step is completed, the model can be used to engineer the original object.
 
-## How does Compiling
+# {How is Compiling done}
 
 ##### Compilers translate human-readable source code written in programming languages into machine code, for specific machine types. This process is divided into something called the "Compilation Phase", which is divided into 6 major steps:
 
@@ -80,9 +78,7 @@ In this step, the compiler enhances the efficiency of the code.
 
 In this step, the compiler finally converts optimized intermediate code into machine code for its targeted machine. The final code should have the same meaning as the source code, and be more efficient for memory and CPU usage.
 
-# {Common tools/strategies used}
-
-## Tools
+# { Common Tools}
 
 ### Decompilers
 
@@ -128,4 +124,4 @@ A tool to test the security of java applications. It lets you attach an existing
 
 A 32-bit debugger tool that analyzes binary code, for Windows devices.
 
-# {Demo in Java + "Java isn't normally used, but we are using it purely for presentation purposes."}
+# {Demo in Java}
